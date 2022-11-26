@@ -7,6 +7,7 @@ import { UserLoginComponent } from './user-login/user-login.component';
 import { UserRegistrationComponent } from './user-registration/user-registration.component';
 import { HomeComponent } from './home/home.component';
 import { SouthIndianComponent } from './south-indian/south-indian.component';
+import { WesterDelightComponent } from './wester-delight/wester-delight.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { SouthIndianComponent } from './south-indian/south-indian.component';
     UserLoginComponent,
     UserRegistrationComponent,
     HomeComponent,
-    SouthIndianComponent
+    SouthIndianComponent,
+    WesterDelightComponent
   ],
   imports: [
     BrowserModule,
