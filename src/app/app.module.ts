@@ -10,6 +10,7 @@ import { SouthIndianComponent } from './south-indian/south-indian.component';
 import { WesterDelightComponent } from './wester-delight/wester-delight.component';
 import { DrinksComponent } from './drinks/drinks.component';
 import { RouterModule } from '@angular/router';
+import { NavbarComponent } from './navbar/navbar.component';
 
 const myRoute=[
   {
@@ -47,7 +48,8 @@ const myRoute=[
     HomeComponent,
     SouthIndianComponent,
     WesterDelightComponent,
-    DrinksComponent
+    DrinksComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
